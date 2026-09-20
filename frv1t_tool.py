@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """
 FRV1T (Unicode Variation Selector Steganography) 解包、重打包与快速替换工具
 """
@@ -108,8 +108,8 @@ def main():
     parser.add_argument(
         "-o",
         "--output",
-        required=True,
-        help="输出文件路径",
+        default="berry.txt",
+        help="输出文件路径（默认为 berry.txt）",
     )
     parser.add_argument(
         "-t",
